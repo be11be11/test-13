@@ -18,12 +18,14 @@ nav ul {
 
 nav ul li {
 list-style-type: none;
+position: absolute;  
 margin: auto;
 line-height: 90%; 
 } 
 
 nav a {
  font-size: 16px;
+ position: absolute;
  margin: auto;
  line-height: 90%;  
  width: 20%;
