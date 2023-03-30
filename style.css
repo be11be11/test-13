@@ -20,15 +20,15 @@ nav ul li {
 list-style-type: none;
 position: absolute;  
 margin: auto;
-line-height: 90%; 
+line-height: 105%; 
 } 
 
 nav a {
  font-size: 16px;
  position: absolute;
  margin: auto;
- line-height: 90%;  
- width: 20%;
+ line-height: 105%;  
+ width: 95%;
  background-color: rgba(0,250,50,0.3);
  color: purple;
 }
