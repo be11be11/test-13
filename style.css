@@ -4,6 +4,10 @@
   
 div.main1 {border:1px solid red; background-color: rgba(50, 50, 10, 0.1); }
 
+nav {
+ text-align: center; 
+}
+
 nav ul {
    position: fixed; /* 固定配置 */
    top: 5px;  /* 基点（ウィンドウ）からの距離 */
@@ -12,20 +16,20 @@ nav ul {
    border:2px solid teal; 
    background-color: rgba(0,250,200,0.2);
    text-align: center; 
-   line-height: 80%;
+   line-height: 90%;
 }
 
 nav ul li {
 list-style-type: none;
 text-align: center; 
- line-height: 80%; 
+ line-height: 90%; 
 } 
 
 nav a {
  display: block;
  font-size: 16px;
  text-align: center; 
- line-height: 80%;  
+ line-height: 90%;  
  width: 20%;
  float: right;
  background-color: rgba(0,250,50,0.3);
