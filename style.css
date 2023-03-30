@@ -6,22 +6,26 @@ div.main1 {border:1px solid red; background-color: rgba(50, 50, 10, 0.1); }
 
 nav ul {
    position: fixed; /* 固定配置 */
-   top: 10px;  /* 基点（ウィンドウ）からの距離 */
+   top: 5px;  /* 基点（ウィンドウ）からの距離 */
    right: 20px;  /* 基点（ウィンドウ）からの距離 */
    width: 20%;
    border:2px solid teal; 
    background-color: rgba(0,250,200,0.2);
+   text-align: center; 
+   line-height: 80%;
 }
 
 nav ul li {
 list-style-type: none;
 text-align: center; 
+ line-height: 80%; 
 } 
 
 nav a {
  display: block;
  font-size: 16px;
- line-height: 3em;
+ text-align: center; 
+ line-height: 80%;  
  width: 20%;
  float: right;
  background-color: rgba(0,250,50,0.3);
