@@ -12,22 +12,19 @@ nav ul {
    margin: auto;
    border:2px solid teal; 
    background-color: rgba(0,250,200,0.2);
-   margin: auto;
-   line-height: 90%;
+   margin: 0 auto;
 }
 
 nav ul li {
 list-style-type: none;
 position: absolute;  
-margin: auto;
-line-height: 105%; 
+margin: 0 auto; 
 } 
 
 nav a {
  font-size: 16px;
  position: absolute;
- margin: auto;
- line-height: 105%;  
+ margin: 0 auto; 
  width: 95%;
  background-color: rgba(0,250,50,0.3);
  color: purple;
