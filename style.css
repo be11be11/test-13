@@ -9,21 +9,22 @@ nav ul {
    top: 5px;  /* 基点（ウィンドウ）からの距離 */
    right: 20px;  /* 基点（ウィンドウ）からの距離 */
    width: 20%;
+   margin: auto;
    border:2px solid teal; 
    background-color: rgba(0,250,200,0.2);
-   text-align: center; 
+   margin: auto;
    line-height: 90%;
 }
 
 nav ul li {
 list-style-type: none;
-text-align: center; 
- line-height: 90%; 
+margin: auto;
+line-height: 90%; 
 } 
 
 nav a {
  font-size: 16px;
- text-align: center; 
+ margin: auto;
  line-height: 90%;  
  width: 20%;
  float: right;
